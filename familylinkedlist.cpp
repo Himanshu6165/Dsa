@@ -130,4 +130,6 @@ sid-21105050*/
 Q.Try to find a way to link the family members' doubly-linked list based on their relationship.
 One way is to take the input in form of the levels of a family tree , ie, taking the input generation wise and inserting the nodes
   in the list order-wise as in an generic tree.
+ other way is we can make a family graph and relate through relation
+and third way is by sorting the doubly linked list according to age in decending order.By doing so we will get a doubly linked list in which older generation people will be close to head in double linked list and new generation people will be close to tail in doubly linked list.
 */
