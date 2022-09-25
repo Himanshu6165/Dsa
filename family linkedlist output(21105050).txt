@@ -1,0 +1,19 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS E:\c++ course> cd "e:\c++ course\" ; if ($?) { g++ familylinkedlist.cpp -o familylinkedlist } ; if ($?) { .\familylinkedlist }
+Enter Number Of Family Members:4
+Enter Family Member 1 Name:Radha
+Enter Family Member 1 Age:45
+Enter Family Member 2 Name:Aditya
+Enter Family Member 2 Age:23
+Enter Family Member 3 Name:Shivam
+Enter Family Member 3 Age:22
+Enter Family Member 4 Name:Himanshu
+Enter Family Member 4 Age:19
+
+Doubly Linked list is shown below:
+
+[Name:Radha Age:45]<=>[Name:Aditya Age:23]<=>[Name:Shivam Age:22]<=>[Name:Himanshu Age:19]  
