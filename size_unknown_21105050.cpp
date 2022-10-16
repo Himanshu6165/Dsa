@@ -40,3 +40,17 @@ int binary_search_unknown(int arr[],int key){
     //Now calling Simple Binary Search on range i to j.
     return binary_search(arr,i,j,key);
 }
+int main(){
+  int n;
+  cin>>n;
+  int array[n];
+  for(int i=0;i<n;i++){
+    cin>>array[i];
+  }
+  int key;
+  cin>>key;
+  //calling function without giving size
+  int ans=binary_search_unknown(array,key);
+  cout<<ans;
+  return 0;
+}
