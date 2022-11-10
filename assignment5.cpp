@@ -133,6 +133,8 @@ int main(){
         
     }   
     cout<<"CLEARLY SELECTION SORT IS FASTER THAN BUBBLE SORT FOR LARGE SIZE ARRAY."<<endl;
+    cout << "4 . As both BubbleSort and SelectionSort are In-place algorithms, hence both of their Inplace Algorithms have been written above." << endl;
+
 
 
     
